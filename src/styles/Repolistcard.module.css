@@ -1,0 +1,22 @@
+.repocardlist_container {
+    border: 1px solid gray;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 10px;
+    
+}
+
+
+.repocardlist_container:hover {
+    border: 1px solid gray;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(241, 238, 238);
+    
+}
