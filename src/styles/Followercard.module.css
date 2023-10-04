@@ -1,0 +1,47 @@
+.followercard_container {
+    /* border: 1px solid red; */
+    width: 90%;
+    height:fit-content;
+    margin: auto;
+    
+    padding: 10px;
+}
+
+.followercard_container ol {
+    list-style-type:decimal;
+    font-size: 1.2rem;
+}
+
+.followercard_container ol li {
+    /* border: 1px solid black; */
+    padding: 5px;
+    display: flex;
+    
+    align-items: center;
+    
+
+}
+
+.followercard_container ol li img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: block;
+
+}
+
+.followercard_container ol li a {
+    text-decoration: none;
+    display: block;
+}
+
+.followercard_container a:hover {
+    text-decoration: underline;
+}
+
+
+.followercard_container h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
